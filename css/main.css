@@ -1,0 +1,44 @@
+body{
+    background-color: #24353F;
+}
+
+h1{
+    color: #17A2B8;
+}
+
+.signup-group{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.text-pr{
+    color: #17A2B8;
+    
+
+}
+
+.form-control {
+    background-color: transparent;
+    color: white;
+
+}
+.form-control:focus  {
+    background-color: transparent;
+    color: white;
+
+}
+
+input {
+    color: white;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(255, 255, 255);
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(255, 255, 255);
+}
